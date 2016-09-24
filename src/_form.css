@@ -37,8 +37,14 @@ input {
 input:focus {
   @apply --focus;
 }
-input[type=checkbox]{ -webkit-appearance: checkbox; }
-input[type=radio] { -webkit-appearance: radio; }
+input[type=checkbox] {
+  -webkit-appearance: checkbox;
+  margin: 0 calc(var(--space-1) / 2);
+}
+input[type=radio] {
+  -webkit-appearance: radio;
+  margin: 0 calc(var(--space-1) / 2);
+}
 /*label {}*/
 legend {
   float: right;
@@ -52,6 +58,7 @@ legend {
 progress { vertical-align: middle }
 select {
   @apply --form-element;
+  padding: calc(var(--space-1) / 2) var(--space-1) var(--space-1);
   background-color: var(--blue);
   color: var(--white);
   border-color: var(--blue);

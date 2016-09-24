@@ -4,8 +4,8 @@
   "description": "theme for html elements",
   "main": "index.js",
   "scripts": {
-    "build": "$(npm bin)/postcss -c postcss.config.js",
-    "watch": "$(npm bin)/postcss -w -c postcss.config.js",
+    "build": "$(npm bin)/postcss -c postcss.config.js && cp css/dem.css docs/dem.css",
+    "watch": "$(npm bin)/postcss -w -c postcss.config.js -o docs/dem.css",
     "minify": "$(npm bin)/postcss -u cssnano css/dem.css -o css/dem.min.css"
   },
   "author": "me@onuruyar.com",

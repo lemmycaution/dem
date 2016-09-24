@@ -19,7 +19,7 @@ article:after {
 article:after { clear: both }
 aside {
   float: right;
-  margin: calc(var(--space-1) / 2) 0;
+  margin: calc(var(--space-1) / 2);
   padding: calc(var(--space-1) / 2) var(--space-1);
   background-color: var(--smoke);
 }

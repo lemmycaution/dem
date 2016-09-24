@@ -11,6 +11,7 @@ figcaption {
   font-weight: var(--bold);
 }
 figure {
+  margin: 0;
   & image {
     max-width: 100%
   }

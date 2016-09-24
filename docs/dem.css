@@ -237,7 +237,7 @@ article:after{
 article:after{ clear:both }
 aside{
   float:right;
-  margin:0.25rem 0;
+  margin:0.25rem;
   padding:0.25rem .5rem;
   background-color:#F5F5F5;
 }
@@ -309,6 +309,7 @@ figcaption{
   font-weight:400;
 }
 figure{
+  margin:0
 }
 figure image{
   max-width:100%;
@@ -462,8 +463,14 @@ input:focus{
   outline-width:0.125rem;
   outline-style:solid;
 }
-input[type=checkbox]{ -webkit-appearance:checkbox; }
-input[type=radio]{ -webkit-appearance:radio; }
+input[type=checkbox]{
+  -webkit-appearance:checkbox;
+  margin:0 0.25rem;
+}
+input[type=radio]{
+  -webkit-appearance:radio;
+  margin:0 0.25rem;
+}
 legend{
   float:right;
   padding:.5rem;
@@ -481,6 +488,7 @@ select{
   border-style:solid;
   border-width:0.125rem;
   border-radius:0.125rem;
+  padding:0.25rem .5rem .5rem;
   background-color:#0074D9;
   color:#FFFFFF;
   border-color:#0074D9;
