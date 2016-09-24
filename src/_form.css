@@ -45,7 +45,7 @@ input[type=radio] { -webkit-appearance: radio; }
 /*optgroup {}*/
 /*option {}*/
 /*output {}*/
-/*progress {}*/
+progress { vertical-align: middle }
 select {
   @apply --form-element;
   background-color: var(--blue);
