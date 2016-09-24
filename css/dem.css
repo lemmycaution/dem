@@ -464,6 +464,11 @@ input:focus{
 }
 input[type=checkbox]{ -webkit-appearance:checkbox; }
 input[type=radio]{ -webkit-appearance:radio; }
+legend{
+  float:right;
+  padding:.5rem;
+  background:#FFDC00;
+}
 progress{ vertical-align:middle }
 select{
   font-family:inherit;

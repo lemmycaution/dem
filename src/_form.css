@@ -40,7 +40,11 @@ input:focus {
 input[type=checkbox]{ -webkit-appearance: checkbox; }
 input[type=radio] { -webkit-appearance: radio; }
 /*label {}*/
-/*legend {}*/
+legend {
+  float: right;
+  padding: var(--space-1);
+  background: var(--yellow);
+}
 /*meter {}*/
 /*optgroup {}*/
 /*option {}*/
