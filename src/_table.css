@@ -10,6 +10,9 @@ th{
   border-bottom-style: solid;
   vertical-align: bottom;
 }
+tbody tr:hover td {
+  background-color: var(--silver);
+}
 tbody tr{
   border-bottom-width: calc(var(--border-width) / 2);
   border-color: var(--silver);

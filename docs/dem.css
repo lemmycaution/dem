@@ -464,13 +464,18 @@ input:focus{
   outline-width:0.125rem;
   outline-style:solid;
 }
+input:hover{
+  border-color:#DDDDDD;
+}
 input[type=checkbox]{
   -webkit-appearance:checkbox;
   margin:0 0.25rem;
+  outline:none;
 }
 input[type=radio]{
   -webkit-appearance:radio;
   margin:0 0.25rem;
+  outline:none;
 }
 legend{
   float:right;
@@ -530,6 +535,9 @@ textarea:focus{
   outline-width:0.125rem;
   outline-style:solid;
 }
+textarea:hover{
+  border-color:#DDDDDD;
+}
 table{
   width:100%;
 }
@@ -541,6 +549,9 @@ th{
   border-bottom-color:#DDDDDD;
   border-bottom-style:solid;
   vertical-align:bottom;
+}
+tbody tr:hover td{
+  background-color:#DDDDDD;
 }
 tbody tr{
   border-bottom-width:0.0625rem;

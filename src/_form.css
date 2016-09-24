@@ -37,13 +37,18 @@ input {
 input:focus {
   @apply --focus;
 }
+input:hover {
+  border-color: var(--silver);
+}
 input[type=checkbox] {
   -webkit-appearance: checkbox;
   margin: 0 calc(var(--space-1) / 2);
+  outline: none;
 }
 input[type=radio] {
   -webkit-appearance: radio;
   margin: 0 calc(var(--space-1) / 2);
+  outline: none;
 }
 /*label {}*/
 legend {
@@ -81,6 +86,9 @@ textarea {
 }
 textarea:focus {
   @apply --focus;
+}
+textarea:hover {
+  border-color: var(--silver);
 }
 
 :root {
