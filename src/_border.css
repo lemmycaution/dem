@@ -1,0 +1,18 @@
+a {
+  border-bottom-style: solid;
+  border-bottom-width: var(--border-width);
+}
+button,
+input,
+textarea,
+select,
+summary {
+  border-style: solid;
+  border-width: var(--border-width);
+  border-radius: var(--border-radius);
+}
+th, td {
+  border-bottom-style: solid;
+  border-bottom-width: var(--border-width);
+  border-bottom-color: var(--border-color);
+}

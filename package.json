@@ -1,0 +1,28 @@
+{
+  "name": "dem",
+  "version": "0.0.1",
+  "description": "theme for html elements",
+  "main": "index.js",
+  "scripts": {
+    "build": "$(npm bin)/postcss -c postcss.config.js",
+    "watch": "$(npm bin)/postcss -w -c postcss.config.js",
+    "minify": "$(npm bin)/postcss -u cssnano css/dem.css -o css/dem.min.css"
+  },
+  "author": "me@onuruyar.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^3.7.5",
+    "normalize.css": "^4.2.0",
+    "autoprefixer": "^6.4.1",
+    "postcss": "^5.2.0",
+    "postcss-apply": "^0.4.0",
+    "postcss-calc": "^5.2.0",
+    "postcss-cli": "^2.5.0",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-discard-comments": "^1.1.1",
+    "postcss-import": "^7.1.3",
+    "postcss-remove-root": "0.0.2",
+    "postcss-loader": "^0.8.0"
+  }
+}
