@@ -235,6 +235,7 @@ article:after{
   display:table
 }
 article:after{ clear:both }
+article p{ text-align:justify; }
 aside{
   float:right;
   margin:0.25rem;

@@ -17,6 +17,7 @@ article:after {
   display: table
 }
 article:after { clear: both }
+article p { text-align: justify; }
 aside {
   float: right;
   margin: calc(var(--space-1) / 2);
