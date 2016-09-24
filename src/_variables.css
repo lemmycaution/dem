@@ -1,6 +1,7 @@
 :root {
   --font-family: 'Source Sans Pro', sans-serif;
   --font-size: 1rem;
+  /* Thanks to https://github.com/basscss */
   --h1-font-size: 2rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -16,7 +17,7 @@
   --space-3: 2rem;
   --space-4: 4rem;
 
-  /* Colors */
+  /* Colors from https://github.com/mrmrs/colors */
   --aqua:  #7FDBFF;
   --blue:  #0074D9;
   --navy:  #001F3F;
@@ -39,7 +40,11 @@
   --black:  #111111;
 
   /* Border */
+  --border-style: solid;
   --border-width: 0.125rem;
   --border-radius: 0.125rem;
   --border-color: var(--smoke);
+
+  /* Size */
+  --content-max-width: 54rem;
 }

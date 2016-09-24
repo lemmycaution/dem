@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+}
+caption{
+  padding: var(--space-1);
+}
+th{
+  border-bottom-width: var(--border-width);
+  border-bottom-color: var(--silver);
+  border-bottom-style: solid;
+  vertical-align: bottom;
+}
+tbody tr{
+  border-bottom-width: calc(var(--border-width) / 2);
+  border-color: var(--silver);
+  border-style: solid;
+}
+td, th {
+  padding: var(--space-1);
+  text-align: center;
+}
+th:nth-child(even){
+  background-color: var(--smoke);
+  border-bottom-color: var(--gray);
+}
+td {
+  vertical-align: middle;
+}
+td:nth-child(even) {
+  background-color: var(--smoke);
+}
+table button {
+  padding: calc(var(--space-1)/2);
+  font-size: calc(var(--font-size)/1.5);
+  line-height: calc(var(--font-size)/1.5);
+  display: inline;
+  float: right;
+  margin: calc(var(--space-1) / 4);
+}

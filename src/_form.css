@@ -1,0 +1,107 @@
+*:focus {
+  outline: none;
+}
+button {
+  @apply --form-element;
+  background-color: var(--blue);
+  color: var(--white);
+  border-color: var(--blue);
+  cursor: pointer;
+}
+button:focus {
+  @apply --focus;
+}
+button:hover {
+  @apply --hover;
+}
+button:active {
+  @apply --active;
+}
+fieldset {
+  border: none;
+  margin-bottom: var(--space-1);
+}
+form {
+  padding: var(--space-2);
+  border-color: var(--border-color);
+  border-style: var(--border-style);
+  border-width: var(--border-width);
+  border-radius: var(--border-radius);
+}
+input {
+  @apply --form-element;
+  background-color: var(--white);
+  color: var(--black);
+  border-color: var(--border-color);
+}
+input:focus {
+  @apply --focus;
+}
+input[type=checkbox]{ -webkit-appearance: checkbox; }
+input[type=radio] { -webkit-appearance: radio; }
+/*label {}*/
+/*legend {}*/
+/*meter {}*/
+/*optgroup {}*/
+/*option {}*/
+/*output {}*/
+/*progress {}*/
+select {
+  @apply --form-element;
+  background-color: var(--blue);
+  color: var(--white);
+  border-color: var(--blue);
+  cursor: pointer;
+}
+select:focus {
+  @apply --focus;
+}
+select:hover {
+  @apply --hover;
+}
+select:active {
+  @apply --active;
+}
+textarea {
+  @apply --form-element;
+  background-color: var(--white);
+  color: var(--black);
+  border-color: var(--border-color);
+}
+textarea:focus {
+  @apply --focus;
+}
+
+:root {
+  --form-element: {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: var(--bold);
+    line-height: inherit;
+
+    vertical-align: baseline;
+
+    padding: calc(var(--space-1) / 2) var(--space-1);
+
+    -webkit-appearance: none;
+
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    border-radius: var(--border-radius);
+  }
+  --focus: {
+    outline-color: var(--silver);
+    outline-width: var(--border-width);
+    outline-style: var(--border-style);
+  }
+  --hover: {
+    background-color: var(--aqua);
+    color: var(--navy);
+    border-color: var(--aqua);
+  }
+  --active: {
+    background-color: var(--navy);
+    color: var(--white);
+    border-color: transparent;
+  }
+}

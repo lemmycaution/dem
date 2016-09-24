@@ -1,0 +1,83 @@
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--normal);
+  line-height: calc(var(--font-size) + .5);
+  color: var(--black);
+}
+address { font-style: italic }
+article {
+  padding: var(--space-2);
+  margin: 0 auto var(--space-4);
+  max-width: var(--content-max-width);
+}
+article:before,
+article:after {
+  content: " ";
+  display: table
+}
+article:after { clear: both }
+aside {
+  float: right;
+  margin: calc(var(--space-1) / 2) 0;
+  padding: calc(var(--space-1) / 2) var(--space-1);
+  background-color: var(--smoke);
+}
+footer {
+  padding: var(--space-2);
+  margin-top: var(--space-2);
+}
+header {
+  padding: var(--space-2);
+  & nav {
+    margin: 0 -var(--space-1);
+  }
+}
+h1 {
+  font-weight: var(--bold);
+  font-size: var(--h1-font-size);
+  line-height: calc(var(--h1-font-size) + .25);
+  margin-top: calc(var(--space-3));
+  margin-bottom: calc(var(--space-3));
+}
+h2 {
+  font-weight: var(--bold);
+  font-size: var(--h2-font-size);
+  line-height: calc(var(--h2-font-size) + .25);
+  margin-top: calc(var(--space-3) / 2);
+  margin-bottom: calc(var(--space-3) / 2);
+}
+h3 {
+  font-weight: var(--bold);
+  font-size: var(--h3-font-size);
+  line-height: calc(var(--h3-font-size) + .25);
+  margin-top: calc(var(--space-3) / 3);
+  margin-bottom: calc(var(--space-3) / 3);
+}
+h4 {
+  font-weight: var(--bold);
+  font-size: var(--h4-font-size);
+  line-height: calc(var(--h4-font-size) + .25);
+  margin-top: calc(var(--space-3) / 4);
+  margin-bottom: calc(var(--space-3) / 4);
+}
+h5 {
+  font-weight: var(--bold);
+  font-size: var(--h5-font-size);
+  line-height: calc(var(--h5-font-size) + .25);
+  margin-top: calc(var(--space-3) / 5);
+  margin-bottom: calc(var(--space-3) / 5);
+}
+h6 {
+  font-weight: var(--bold);
+  font-size: var(--h6-font-size);
+  line-height: calc(var(--h6-font-size) + .25);
+  margin-top: calc(var(--space-3) / 6);
+  margin-bottom: calc(var(--space-3) / 6);
+}
+nav {
+  & a {
+    margin: var(--space-1);
+  }
+}
+/* section {} */

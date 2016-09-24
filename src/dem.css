@@ -1,8 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-@import "normalize.css";
+@import 'normalize.css';
 @import '_box_sizing.css';
 @import '_variables.css';
-@import "_typography.css";
-@import "_color.css";
-@import "_border.css";
-@import "_space.css";
+@import '_content.css';
+@import '_text.css';
+@import '_form.css';
+@import '_table.css';
