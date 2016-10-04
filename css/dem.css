@@ -478,9 +478,7 @@ input[type=radio]{
   outline:none;
 }
 legend{
-  float:right;
-  padding:.5rem;
-  background:#FFDC00;
+  margin-bottom:.5rem;
 }
 progress{ vertical-align:middle }
 select{

@@ -2,7 +2,7 @@
   "name": "dem",
   "version": "0.0.1",
   "description": "theme for html elements",
-  "main": "index.js",
+  "main": "css/dem.css",
   "repository": "lemmycaution/dem",
   "scripts": {
     "build": "$(npm bin)/postcss -c postcss.config.js && cp css/dem.css docs/dem.css",
