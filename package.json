@@ -1,8 +1,8 @@
 {
   "name": "dem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "theme for html elements",
-  "main": "css/dem.css",
+  "style": "css/dem.css",
   "repository": "lemmycaution/dem",
   "scripts": {
     "build": "$(npm bin)/postcss -c postcss.config.js && cp css/dem.css docs/dem.css",
